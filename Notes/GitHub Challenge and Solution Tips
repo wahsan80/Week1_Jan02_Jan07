@@ -2,6 +2,8 @@ Challenge faced today: Wasn't able to push code into my Github account
 Error: Server couldn't access the account because SSH public key was missing or not accessable.
 Solution Steps: 
 
+* Git SSH authentication key might be in the email account associated with. 
+
 1. Open Git Bash. 
 2. Enter ls -al ~/.ssh to see if existing SSH keys are present. 
 3. Check the directory listing to see if you already have a public SSH key. By default, the filenames of 
